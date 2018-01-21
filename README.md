@@ -70,22 +70,22 @@ This iteration consisted of implement the 3D scene and the lighting.
 
 This step consisted on search some showroom free prebuilt scenes using google to find one that is compatible with the project specification and performance requirements.
 
-#### Test questions
+#### Test questions for the definitive scene integration
 
 - There is any object that is oversized, undersized?
   - No.
 - How do you feel with the atmosphere of the game? Where do you thing are you placed?
-  - I'm immersed in an Ancient Egypt temple.
+  - I'm immersed in an showroom.
 - There is any object that is not correctly visualized?
   - No.
 - Do you see any zone that is too dark appreciate it?
-  - No.
+  - In general the light is too low for a showroom.
 - Do you see any zone that is too shiny and causes you sickness?
   - No.
 
 #### Test feedback modifications
 
-All the tests got green for this iteration, nothing to change.
+The spot lights range and intensity was incremented to give a better showroom experience.
 
 ### Iteration 3: GUI
 
