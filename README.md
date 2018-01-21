@@ -6,13 +6,15 @@ This project is part of [Udacity](https://www.udacity.com "Udacity - Be in deman
 
 The project consists on design and implement a Virtual Reality (VR) application, to immerse the user in a Virtual Reality state of the art showroom.
 
-This work is developed using Unity and GoogleVR, with the aim of learn about VR design, VR development and VR project management. I have decided to ambient the game in the Ancient Egypt to give it an unique and more interesting presentation.
+This work is developed using Unity and GoogleVR, with the aim of learn about VR design, VR development and VR project management. I have decided to ambient the application in a showroom to focus the attention of the user to the content.
 
 
 This document contains the specifications of the mentioned application and some information about the project schedule.
 
 
 ## Demo video
+
+TODO
 
 [![Demo Video](https://img.youtube.com/vi/hgUytoiGTPs/0.jpg)](https://youtu.be/hgUytoiGTPs)
 
@@ -63,6 +65,10 @@ VR experience: Tried only once in a university VR demo.
 ### Iteration 2: Scene
 
 This iteration consisted of implement the 3D scene and the lighting.
+
+#### Find a prebuilt 3D scene
+
+This step consisted on search some showroom free prebuilt scenes using google to find one that is compatible with the project specification and performance requirements.
 
 #### Test questions
 
