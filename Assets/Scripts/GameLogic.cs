@@ -18,19 +18,26 @@ public class GameLogic : MonoBehaviour
 	public GameObject restartUI;
 	public GameObject startPoint;
 	public GameObject[] showPoint;
-	public GameObject restartPoint;
 
 	private uint showPointIndex = 0;
 
 	void Start()
 	{
+		startUI.SetActive(true);
+		restartUI.SetActive(false);
+		nextPointCanvas.SetActive (false);
 		player.transform.position = startPoint.transform.position;
+		player.transform.rotation = startPoint.transform.rotation;
+	}
+
+	public void StartButtonClicked()
+	{
+		startUI.SetActive(false);
+		MoveToNextPoint ();
 	}
 
 	public void MoveToNextPoint()
-	{ 
-		//startUI.SetActive(false);
-
+	{
 		if (showPointIndex < showPoint.Length) {
 			nextPointCanvas.SetActive (false);
 			Vector3 nextPoint = showPoint [showPointIndex].transform.position;
@@ -56,7 +63,7 @@ public class GameLogic : MonoBehaviour
 	public void MoveToNextPointComplete()
 	{
 		if (showPointIndex >= showPoint.Length) {
-			//TODO: open restart dialog.
+			restartUI.SetActive(true);
 		}else if (showPoint[showPointIndex-1].tag == "ShowPoint") {
 			nextPointCanvas.SetActive (true);
 		} else {
@@ -64,32 +71,8 @@ public class GameLogic : MonoBehaviour
 		}
 	}
 
-	// Reset the puzzle sequence.
-	public void ResetPuzzle()
+	public void Restart()
 	{
-		// Enable the start UI.
-		startUI.SetActive(true);
-
-		// Disable the restart UI.
-		restartUI.SetActive(false);
-
-		// Move the player to the start position.
-		player.transform.position = startPoint.transform.position;
-	}
-
-	// Do this when the player solves the puzzle.
-	public void PuzzleSuccess()
-	{
-		// Enable the restart UI.
-		restartUI.SetActive(true);
-
-		// Move the player to the restart position.
-		iTween.MoveTo(player, 
-			iTween.Hash(
-				"position", restartPoint.transform.position, 
-				"time", 4, 
-				"easetype", "linear"
-			)
-		);
+		Start ();
 	}
 }
