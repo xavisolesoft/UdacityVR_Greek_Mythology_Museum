@@ -49,7 +49,7 @@ This iteration consisted of analyze the potential players for our game, design t
 
 #### Persona
 
-![](Documentation/persona.jpg)Jordi, 25 - Computer Science, University Student
+![](persona.jpg)Jordi, 25 - Computer Science, University Student
 
 “I love gaming”
 
@@ -59,11 +59,11 @@ VR experience: Tried only once in a university VR demo.
 
 #### Game Sketch
 
-![](Documentation/Game_Sketch.jpg)
+![](GeneralSketch.jpg)
 
 #### GUI Sketch
 
-![](Documentation/GUI_Sketch.jpg)
+![](GUISketch.jpg)
 
 ### Iteration 2: Scene
 
@@ -97,13 +97,13 @@ This iteration consisted of implement the start and restart GUI dialogs.
 #### Test questions
 
 - Can you read comfortably the text of the dialogs?
-  - "You won the game." text seems fuzzy at Restart Dialog.
+  - "The tour have finished." text seems fuzzy at Restart Dialog.
 - Do you understand what the button does when is clicked?
   - Yes.
 
 #### Test feedback modifications
 
-The text "You won the game." style was edited to improve the readability.
+The text "The tour have finished." style was edited to improve the readability.
 
 ### Iteration 4: Navigation system
 
@@ -112,13 +112,13 @@ This iteration consisted of implement the player navigation system.
 #### Test questions
 
 - Does it feel like you are going to hit a wall?
-  - Yes, I think I will collide with one of the first door statue.
-- The movement causes you sickness or makes the environment look fuzzy?
   - No.
+- The movement causes you sickness or makes the environment look fuzzy?
+  - Yes, I the move speed is too high for me.
 
 #### Test feedback modifications
 
-The camera was centered on start position and the statues where moved to avoid the sensation of colliding with the statues.
+The position and rotation speed was decreased to give a more comfortable experience to the user.
 
 ### Iteration 5: Game mechanic
 
