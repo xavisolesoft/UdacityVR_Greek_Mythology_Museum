@@ -35,4 +35,4 @@ As future work, we could adapt the controls to other Virtual Reality platforms t
 
 - Unity 2017.2.0f3
 - GVR Unity SDK v1.70.0
-- iTween v2.0.7
+- iTween v2.0.8
