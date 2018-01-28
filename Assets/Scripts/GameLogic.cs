@@ -13,21 +13,27 @@ public class GameLogic : MonoBehaviour
 
 	public GameObject player;
 	public GameObject eventSystem;
-	public GameObject nextPointCanvas;
 	public GameObject startUI;
 	public GameObject restartUI;
 	public GameObject startPoint;
-	public GameObject[] showPoint;
+	public GameObject[] showPoints;
 
 	private uint showPointIndex = 0;
 
 	void Start()
 	{
+		showPointIndex = 0;
 		startUI.SetActive(true);
 		restartUI.SetActive(false);
-		nextPointCanvas.SetActive (false);
 		player.transform.position = startPoint.transform.position;
-		player.transform.rotation = startPoint.transform.rotation;
+		player.transform.eulerAngles = startPoint.transform.eulerAngles;
+
+		foreach (GameObject showPoint in showPoints) {
+			Transform godCanvasTransform = showPoint.transform.Find ("GodCanvas");
+			if (godCanvasTransform) {
+				godCanvasTransform.Find ("Panel").gameObject.SetActive (false);
+			}
+		}
 	}
 
 	public void StartButtonClicked()
@@ -35,18 +41,21 @@ public class GameLogic : MonoBehaviour
 		startUI.SetActive(false);
 		MoveToNextPoint ();
 	}
+		
 
 	public void MoveToNextPoint()
 	{
-		if (showPointIndex < showPoint.Length) {
-			nextPointCanvas.SetActive (false);
-			Vector3 nextPoint = showPoint [showPointIndex].transform.position;
+		if (showPointIndex < showPoints.Length) {
+			if (showPointIndex > 0) {
+				GameObject godCanvas = showPoints [showPointIndex - 1].transform.Find ("GodCanvas").Find ("Panel").gameObject;
+				godCanvas.SetActive (false);
+			}
+
+			Vector3 nextPoint = showPoints [showPointIndex].transform.position;
 			float distance = Vector3.Distance (player.transform.position, nextPoint);
-
-
 			iTween.MoveTo(player, 
 				iTween.Hash(
-					"position", showPoint[showPointIndex].transform.position,
+					"position", showPoints[showPointIndex].transform.position,
 					"orienttopath", true,
 					"lookTime", rotationTime,
 					"time", distance/movementSpeed, 
@@ -62,12 +71,11 @@ public class GameLogic : MonoBehaviour
 
 	public void MoveToNextPointComplete()
 	{
-		if (showPointIndex >= showPoint.Length) {
-			restartUI.SetActive(true);
-		}else if (showPoint[showPointIndex-1].tag == "ShowPoint") {
-			nextPointCanvas.SetActive (true);
+		if (showPointIndex >= showPoints.Length) {
+			restartUI.SetActive (true);
 		} else {
-			MoveToNextPoint ();
+			GameObject godCanvas = showPoints [showPointIndex - 1].transform.Find ("GodCanvas").Find ("Panel").gameObject;
+			godCanvas.SetActive (true);
 		}
 	}
 

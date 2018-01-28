@@ -120,20 +120,26 @@ This iteration consisted of implement the player navigation system.
 
 The position and rotation speed was decreased to give a more comfortable experience to the user.
 
-### Iteration 5: Game mechanic
+### Iteration 5: Expositions
 
-This iteration consisted of implement the puzzle orbs behavior and sounds.
+This iteration consisted of build the showroom expositors.
 
 #### Test questions
 
-- Do you understand what to do with the orbs?
-  - Yes, I have to pick them with the same sequence showed at the begin.
-- Is the orb sequence demonstration too quick or slow for you?
-  - It's right for me.
-- Do you finished the game?
+- Are the size of the god images correctly?
   - Yes.
-- How many fails you got?
-  - 3.
+- Can you read correctly the text?
+  - Yes.
+- Do you know how to pas to the next expositor?
+  - Yes, I have to click the "Next expositor" button.
+
+#### Test feedback modifications
+
+All the tests got green for this iteration, nothing to change.
+
+### Iteration 6: Sounds
+
+
 
 #### Test feedback modifications
 
