@@ -6,13 +6,11 @@ This project is part of [Udacity](https://www.udacity.com "Udacity - Be in deman
 
 The project consists on design and implement a Virtual Reality (VR) application, to immerse the user in a Virtual Reality state of the art showroom.
 
-This work is developed using Unity and GoogleVR, with the aim of learn about VR design, VR development and VR project management. I have decided to ambient the application in a showroom to focus the attention of the user to the exposed content.
+This work is developed using Unity and GoogleVR, with the aim of learn about VR design, VR development and VR project management. I have chosen as showroom theme: Greek Mythology Gods. I have decided to ambient the application in a showroom to focus the attention of the user to the content.
 
 ## Project Write-up
 
-Find a write-up, with detailed information about the specifications of this project and some information about the project schedule, available in this two formats:
-
-//TODO Medium version link
+Find a write-up, with detailed information about the specifications of this project and some information about the project schedule:
 
 [Markdown Version.](https://github.com/xavisolesoft/UdacityVR_Showroom/blob/master/Documentation/Writeup.md)
 

@@ -6,7 +6,7 @@ This project is part of [Udacity](https://www.udacity.com "Udacity - Be in deman
 
 The project consists on design and implement a Virtual Reality (VR) application, to immerse the user in a Virtual Reality state of the art showroom.
 
-This work is developed using Unity and GoogleVR, with the aim of learn about VR design, VR development and VR project management. I have decided to ambient the application in a showroom to focus the attention of the user to the content.
+This work is developed using Unity and GoogleVR, with the aim of learn about VR design, VR development and VR project management. I have chosen as showroom theme: Greek Mythology Gods. I have decided to ambient the application in a showroom to focus the attention of the user to the content.
 
 This document contains the specifications of the mentioned application and some information about the project schedule.
 
@@ -25,21 +25,45 @@ TODO
 
 ### Start Scene
 
-The start scene is the first place where the player will appear, so have the goal to immerse the user to the Ancient Egypt, showing: great pyramids, pharaoh statues and the desert.
+The start scene is the first place where the player will appear, so have the goal to immerse the user to a Greek mythology room with epic sounds.
 
-![Start Scene](Documentation/Scene1.png)
+![Start Scene](Start.png)
 
-### Play Scene
+### Zeus Scene
 
-The play scene must focus the player to the simon puzzle game, so it's a closed small dungeon with reduced illumination and no distractions.
+The play scene must focus the player to the Zeus picture and description, immersing the user using thunder sounds.
 
-![Start Scene](Documentation/Scene2.png)
+![Zeus Scene](Zeus.png)
+
+### Poseidon Scene
+
+The play scene must focus the player to the Poseidon picture and description, immersing the user with sea sounds.
+
+![Zeus Scene](Poseidon.png)
+
+### Aphrodite Scene
+
+The play scene must focus the player to the Aphrodite picture and description, immersing the user with "Oh, Pretty Woman" song and red sexy light.
+
+![Zeus Scene](Aphrodite.png)
+
+### Hephaestus Scene
+
+The play scene must focus the player to the Hephaestus picture and description, immersing the user with blacksmith hammer sounds.
+
+![Zeus Scene](Hephaestus.png)
+
+### Athena Scene
+
+The play scene must focus the player to the Athena picture and description, immersing the user with battle sounds.
+
+![Zeus Scene](Athena.png)
 
 ### End Scene
 
-The end scene appears when the player have won the game, so the face of the pharaoh appears to congratulate the player, inviting the player to visit the pharaoh great pyramid. The player can restart the game.
+The end scene appears when the user have completed the tour. We give the user the opportunity to restart the tour and play for the user the funniest song used in this tour "Oh, Pretty Woman".
 
-![Start Scene](Documentation/Scene3.png)
+![Start Scene](End.png)
 
 ## Project Schedule
 
@@ -78,7 +102,7 @@ This step consisted on search some showroom free prebuilt scenes using google to
 - There is any object that is oversized, undersized?
   - No.
 - How do you feel with the atmosphere of the game? Where do you thing are you placed?
-  - I'm immersed in an showroom.
+  - I'm immersed in a Greek mythology showroom.
 - There is any object that is not correctly visualized?
   - No.
 - Do you see any zone that is too dark appreciate it?
@@ -126,7 +150,7 @@ This iteration consisted of build the showroom expositors.
 
 #### Test questions
 
-- Are the size of the god images correctly?
+- Are the size of the god pictures correctly?
   - Yes.
 - Can you read correctly the text?
   - Yes.
@@ -139,7 +163,18 @@ All the tests got green for this iteration, nothing to change.
 
 ### Iteration 6: Sounds
 
+This iteration consisted of build all the sound mechanic.
 
+#### Test questions
+
+- Do you listen all the sound tracks correctly?
+  - Yes.
+- The sound tracks are representing correctly each god?
+  - Yes.
+
+#### Test feedback modifications
+
+All the tests got green for this iteration, nothing to change.
 
 #### Test feedback modifications
 
@@ -150,3 +185,25 @@ The tester understood the game mechanics and only fail 3 times. Nothing to modif
 This project have given me the opportunity to learn about Virtual Reality Design, gaining practical experience on all the steps of a Virtual Reality project.
 
 As future work, we could adapt the controls to other Virtual Reality platforms that use a joystick controller like Google Day Dream. With this approach, the experience could be more ergonomic for the users, they could move the pointer with out move their head, only moving the joystick. This new feature could reduce the simulation sickness produced by unnecessary head movements.
+
+## References
+
+- [God description texts](https://greekgodsandgoddesses.net/)
+- [Zeus image](http://es.campamentomestizofanon.wikia.com/wiki/Zeus)
+- [Poseidon image](https://genzoman.deviantart.com/art/Poseidon-God-of-the-Sea-484552876)
+- [Aphrodite image](http://majorolympians.com/aphrodite.html)
+- [Hephestus image](https://www.emaze.com/@AFCZQQFQ/Greek-gods-and)
+- [Athena image](http://eskipaper.com/athena-1.html#gal_post_70960_athena-1.jpg)
+- [Scene model](https://assetstore.unity.com/packages/3d/environments/3d-free-modular-kit-85732)
+- [Zeus thunder soundstrack](https://assetstore.unity.com/packages/audio/sound-fx/thunder-sound-set-volume-1-56530)
+- [Poseidon sea soundtrack](http://soundbible.com/1936-Crisp-Ocean-Waves.html)
+- [Aphodite Pretty Woman song](https://musicpleer.bz/#!af539b2dd28467733c183854cc8bd5b3)
+- [Hephaestus Hammering Metal sountrack](https://retired.sounddogs.com/sound-effects/blacksmith-hammering-metal-sledgehammer-299566)
+- [Athena Battle sountrack](https://retired.sounddogs.com/previews/42/mp3/432291_SOUNDDOGS__ba.mp3)
+- [Start Epic soundtrack](http://www.beatsuite.com/music/category/epic/372)
+
+## Third Party Software
+
+- [Unity 2017.2.0f3](https://unity3d.com/es/get-unity/download/archive)
+- [GVR Unity SDK v1.70.0](https://github.com/googlevr/gvr-unity-sdk/releases)
+- [iTween v2.0.8](https://assetstore.unity.com/packages/tools/animation/itween-84)
