@@ -17,9 +17,7 @@ This document contains the specifications of the mentioned application and some 
 
 ## Demo video
 
-TODO
-
-[![Demo Video](https://img.youtube.com/vi/hgUytoiGTPs/0.jpg)](https://youtu.be/hgUytoiGTPs)
+[![Demo Video](https://img.youtube.com/vi/gH6lutKAqIM/0.jpg)](https://youtu.be/gH6lutKAqIM)
 
 ## Scenes
 

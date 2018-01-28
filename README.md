@@ -17,9 +17,7 @@ Find a write-up, with detailed information about the specifications of this proj
 
 ## Demo video
 
-TODO
-
-[![Demo Video](https://img.youtube.com/vi/hgUytoiGTPs/0.jpg)](https://youtu.be/hgUytoiGTPs)
+[![Demo Video](https://img.youtube.com/vi/gH6lutKAqIM/0.jpg)](https://youtu.be/gH6lutKAqIM)
 
 
 
