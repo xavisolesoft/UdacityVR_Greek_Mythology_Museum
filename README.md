@@ -40,6 +40,12 @@ As future work, we could adapt the controls to other Virtual Reality platforms t
 - [Hephestus image](https://www.emaze.com/@AFCZQQFQ/Greek-gods-and)
 - [Athena image](http://eskipaper.com/athena-1.html#gal_post_70960_athena-1.jpg)
 - [Scene model](https://assetstore.unity.com/packages/3d/environments/3d-free-modular-kit-85732)
+- [Zeus thunder soundstrack](https://assetstore.unity.com/packages/audio/sound-fx/thunder-sound-set-volume-1-56530)
+- [Poseidon sea soundtrack](http://soundbible.com/1936-Crisp-Ocean-Waves.html)
+- [Aphodite Pretty Woman song](https://musicpleer.bz/#!af539b2dd28467733c183854cc8bd5b3)
+- [Hephaestus Hammering Metal sountrack](https://retired.sounddogs.com/sound-effects/blacksmith-hammering-metal-sledgehammer-299566)
+- [Athena Battle sountrack](https://retired.sounddogs.com/previews/42/mp3/432291_SOUNDDOGS__ba.mp3)
+- [Start Epic soundtrack](http://www.beatsuite.com/music/category/epic/372)
 
 ## Third Party Software
 

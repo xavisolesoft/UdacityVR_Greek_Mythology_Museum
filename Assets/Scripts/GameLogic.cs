@@ -22,6 +22,7 @@ public class GameLogic : MonoBehaviour
 		restartUI.SetActive(false);
 		player.transform.position = startPoint.transform.position;
 		player.transform.eulerAngles = startPoint.transform.eulerAngles;
+		startPoint.GetComponent<GvrAudioSource> ().Play ();
 
 		foreach (GameObject showPoint in showPoints) {
 			Transform godCanvasTransform = showPoint.transform.Find ("GodCanvas");
@@ -36,7 +37,6 @@ public class GameLogic : MonoBehaviour
 		startUI.SetActive(false);
 		MoveToNextPoint ();
 	}
-		
 
 	public void MoveToNextPoint()
 	{
@@ -45,6 +45,8 @@ public class GameLogic : MonoBehaviour
 				GameObject godCanvas = showPoints [showPointIndex - 1].transform.Find ("GodCanvas").Find ("Panel").gameObject;
 				godCanvas.SetActive (false);
 			}
+
+			showPoints [showPointIndex].GetComponent<GvrAudioSource> ().Play ();
 
 			Vector3 nextPoint = showPoints [showPointIndex].transform.position;
 			float distance = Vector3.Distance (player.transform.position, nextPoint);
@@ -66,6 +68,12 @@ public class GameLogic : MonoBehaviour
 
 	public void MoveToNextPointComplete()
 	{
+		if (showPointIndex > 1) {
+			showPoints [showPointIndex - 2].GetComponent<GvrAudioSource> ().Stop ();
+		} else {
+			startPoint.GetComponent<GvrAudioSource> ().Stop ();
+		}
+
 		if (showPointIndex >= showPoints.Length) {
 			restartUI.SetActive (true);
 		} else {
@@ -76,6 +84,7 @@ public class GameLogic : MonoBehaviour
 
 	public void Restart()
 	{
+		showPoints [showPoints.Length - 1].GetComponent<GvrAudioSource> ().Stop ();
 		Start ();
 	}
 }
