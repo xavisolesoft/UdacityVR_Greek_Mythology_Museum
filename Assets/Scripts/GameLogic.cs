@@ -1,11 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-/* Final
- * This script represents what your GameLogic.cs script might look like at the end of the course.
- * 
- * Do not use this script directly as the file and class names are incorrect.
- */
 public class GameLogic : MonoBehaviour
 {
 	public float movementSpeed = 2;

@@ -2357,8 +2357,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74.8, y: 8.4}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 81.2, y: 8.4}
+  m_SizeDelta: {x: 120, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &614831056
 MonoBehaviour:
@@ -2379,7 +2379,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ba1940aa00b8d6e498d765d5ad0b10c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc86cd1308cfff444934a7f63ea6624a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2523,17 +2523,17 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 683128472}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1791182830}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74.8, y: 8.4}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 81.4, y: 8.4}
+  m_SizeDelta: {x: 120, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &683128474
 MonoBehaviour:
@@ -2554,7 +2554,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ba1940aa00b8d6e498d765d5ad0b10c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 68ffd03a3118dc4439ef775943b2afcc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2949,8 +2949,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74.79962, y: 8.400011}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 82.9, y: 8.400011}
+  m_SizeDelta: {x: 120, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &808340388
 MonoBehaviour:
@@ -3567,13 +3567,13 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 912564723}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1385095412}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 74.8, y: 8.4}
@@ -3598,7 +3598,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ba1940aa00b8d6e498d765d5ad0b10c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bb8a366862a0e414c90537bd6f435230, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3974,7 +3974,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1122485073}
-  - {fileID: 1811679476}
   m_Father: {fileID: 555598869}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -4527,17 +4526,17 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1135782827}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.008726558, z: 0, w: 0.999962}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 585098783}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 1, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 74.8, y: 8.4}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 80, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1135782829
 MonoBehaviour:
@@ -4558,7 +4557,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ba1940aa00b8d6e498d765d5ad0b10c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59e83dfc01feeca4fab30f4cfd513365, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4968,11 +4967,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Zeus was the first of the GODS and a very imposing figure. Often referred
-    to as the \u201CFather of Gods and men\u201D, he is a sky god who controls lightning
-    (often using it as a weapon) and thunder. Zeus is king of Mount Olympus, the home
-    of Greek gods, where he rules the world and imposes his will onto gods and mortals
-    alike."
+  m_Text: Poseidon was god of the sea, earthquakes, storms, and horses and is considered
+    one of the most bad-tempered, moody and greedy Olympian gods. He was known to
+    be vengeful when insulted.
 --- !u!222 &1183882910
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5308,11 +5305,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Zeus was the first of the GODS and a very imposing figure. Often referred
-    to as the \u201CFather of Gods and men\u201D, he is a sky god who controls lightning
-    (often using it as a weapon) and thunder. Zeus is king of Mount Olympus, the home
-    of Greek gods, where he rules the world and imposes his will onto gods and mortals
-    alike."
+  m_Text: "Aphrodite is the Goddess of Love and Beauty and according to Hesiod\u2019s
+    THEOGONY, she was born from the foam in the waters of Paphos, on the island of
+    Cyprus. She supposedly arose from the foam when the Titan Cronus slew his father
+    Uranus and threw his genitals into the sea."
 --- !u!222 &1240975634
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6354,11 +6350,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Zeus was the first of the GODS and a very imposing figure. Often referred
-    to as the \u201CFather of Gods and men\u201D, he is a sky god who controls lightning
-    (often using it as a weapon) and thunder. Zeus is king of Mount Olympus, the home
-    of Greek gods, where he rules the world and imposes his will onto gods and mortals
-    alike."
+  m_Text: Hephaestus was the god of fire, metalworking, stone masonry, forges and
+    the art of sculpture. He was the son of ZEUS and HERA and married to APHRODITE
+    by Zeus to prevent a war of the gods fighting for her hand. He was a smithing
+    god, making all of the weapons for Olympus and acting as a blacksmith for the
+    gods.
 --- !u!222 &1471430082
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6804,6 +6800,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 585098783}
+  - {fileID: 1811679476}
   m_Father: {fileID: 555598869}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8056,7 +8053,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1024370441}
+    m_TransformParent: {fileID: 1544811590}
     m_Modifications:
     - target: {fileID: 498412, guid: 970dd4b9371394fb4890965f608d46fd, type: 2}
       propertyPath: m_LocalPosition.x
@@ -8796,11 +8793,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Zeus was the first of the GODS and a very imposing figure. Often referred
-    to as the \u201CFather of Gods and men\u201D, he is a sky god who controls lightning
-    (often using it as a weapon) and thunder. Zeus is king of Mount Olympus, the home
-    of Greek gods, where he rules the world and imposes his will onto gods and mortals
-    alike."
+  m_Text: Athena, also referred to as Athene, is a very important goddess of many
+    things. She is goddess of wisdom, courage, inspiration, civilization, law and
+    justice, strategic warfare, mathematics, strength, strategy, the arts, crafts,
+    and skill.
 --- !u!222 &1948931267
 CanvasRenderer:
   m_ObjectHideFlags: 0
