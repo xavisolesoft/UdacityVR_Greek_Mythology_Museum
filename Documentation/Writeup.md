@@ -12,7 +12,7 @@ This document contains the specifications of the mentioned application and some 
 
 ## Project Repository
 
-[Virtual Reality Showroom Project GitHub Repository.](https://github.com/xavisolesoft/UdacityVR_Showroom)
+[Virtual Reality Showroom Project GitHub Repository.](https://github.com/xavisolesoft/UdacityVR_Greek_Mythology_Museum)
 
 
 ## Demo video
