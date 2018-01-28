@@ -31,8 +31,18 @@ This project have given me the opportunity to learn about Virtual Reality Design
 
 As future work, we could adapt the controls to other Virtual Reality platforms that use a joystick controller like Google Day Dream. With this approach, the experience could be more ergonomic for the users, they could move the pointer with out move their head, only moving the joystick. This new feature could reduce the simulation sickness produced by unnecessary head movements.
 
+## References
+
+- [God description texts](https://greekgodsandgoddesses.net/)
+- [Zeus image](http://es.campamentomestizofanon.wikia.com/wiki/Zeus)
+- [Poseidon image](https://genzoman.deviantart.com/art/Poseidon-God-of-the-Sea-484552876)
+- [Aphrodite image](http://majorolympians.com/aphrodite.html)
+- [Hephestus image](https://www.emaze.com/@AFCZQQFQ/Greek-gods-and)
+- [Athena image](http://eskipaper.com/athena-1.html#gal_post_70960_athena-1.jpg)
+- [Scene model](https://assetstore.unity.com/packages/3d/environments/3d-free-modular-kit-85732)
+
 ## Third Party Software
 
-- Unity 2017.2.0f3
-- GVR Unity SDK v1.70.0
-- iTween v2.0.8
+- [Unity 2017.2.0f3](https://unity3d.com/es/get-unity/download/archive)
+- [GVR Unity SDK v1.70.0](https://github.com/googlevr/gvr-unity-sdk/releases)
+- [iTween v2.0.8](https://assetstore.unity.com/packages/tools/animation/itween-84)
