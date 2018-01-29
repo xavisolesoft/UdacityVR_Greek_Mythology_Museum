@@ -12,7 +12,7 @@ This work is developed using Unity and GoogleVR, with the aim of learn about VR 
 
 Find a write-up, with detailed information about the specifications of this project and some information about the project schedule:
 
-[Markdown Version.](https://github.com/xavisolesoft/UdacityVR_Greek_Mythology_Museum/Writeup.md)
+[Markdown Version.](https://github.com/xavisolesoft/UdacityVR_Greek_Mythology_Museum/blob/master/Documentation/Writeup.md)
 
 
 ## Demo video
